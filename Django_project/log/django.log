@@ -1,0 +1,41 @@
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 404 2205
+"GET /prefix/about/ HTTP/1.1" 200 27
+"GET /prefix HTTP/1.1" 301 0
+"GET /prefix/ HTTP/1.1" 200 13
+G:\Python-develop\Django\Seminar_1\Seminar_1\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\Seminar_1\myapp\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+G:\Python-develop\Django\Seminar_1\Seminar_1\settings.py changed, reloading.
+INFO 2024-03-28 19:30:58,346 autoreload 13588 9908 Watching for file changes with StatReloader
+INFO 2024-03-28 19:31:13,375 views 13588 12468 Index page accessed
+INFO 2024-03-28 19:31:13,376 basehttp 13588 12468 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2024-03-28 19:31:18,352 views 13588 12468 Error in about page: division by zero
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\Seminar_1\myapp\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2024-03-28 19:31:18,354 basehttp 13588 12468 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-03-29 19:39:13,837 autoreload 13588 9908 G:\Python-develop\Django\Seminar_1\Seminar_1\urls.py changed, reloading.
+INFO 2024-03-29 19:39:14,371 autoreload 26932 24624 Watching for file changes with StatReloader
+INFO 2024-03-29 19:45:47,255 autoreload 27444 26212 Watching for file changes with StatReloader
+INFO 2024-03-29 19:46:45,356 autoreload 24744 26520 Watching for file changes with StatReloader
+INFO 2024-03-29 19:49:51,355 autoreload 24744 26520 G:\Python-develop\Django\Django_project\Seminar_1\apps.py changed, reloading.
+INFO 2024-03-29 19:49:51,768 autoreload 24940 28488 Watching for file changes with StatReloader
+INFO 2024-03-29 19:49:53,055 autoreload 24940 28488 G:\Python-develop\Django\Django_project\Seminar_1\apps.py changed, reloading.
+INFO 2024-03-29 19:49:53,492 autoreload 14280 28112 Watching for file changes with StatReloader
+WARNING 2024-03-29 19:50:13,120 log 14280 404 Not Found: /
+WARNING 2024-03-29 19:50:13,121 basehttp 14280 404 "GET / HTTP/1.1" 404 2174
+INFO 2024-03-29 19:50:20,324 basehttp 14280 404 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-03-29 19:50:24,712 basehttp 14280 404 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2024-03-29 19:59:26,193 autoreload 24892 8524 Watching for file changes with StatReloader
+INFO 2024-03-29 20:02:21,391 autoreload 12616 25864 Watching for file changes with StatReloader
