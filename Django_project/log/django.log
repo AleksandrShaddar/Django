@@ -764,3 +764,1302 @@ INFO 2024-04-02 19:28:45,992 basehttp 1356 22432 "GET /S_1/number/ HTTP/1.1" 200
 INFO 2024-04-02 19:28:46,198 basehttp 1356 22432 "GET /S_1/number/ HTTP/1.1" 200 2
 INFO 2024-04-02 19:28:46,394 basehttp 1356 22432 "GET /S_1/number/ HTTP/1.1" 200 2
 INFO 2024-04-02 19:28:46,613 basehttp 1356 22432 "GET /S_1/number/ HTTP/1.1" 200 2
+INFO 2024-04-02 20:17:32,097 autoreload 15316 9604 Watching for file changes with StatReloader
+WARNING 2024-04-02 20:17:36,288 log 15316 19620 Not Found: /
+WARNING 2024-04-02 20:17:36,290 basehttp 15316 19620 "GET / HTTP/1.1" 404 2275
+WARNING 2024-04-02 20:17:36,792 log 15316 19620 Not Found: /favicon.ico
+WARNING 2024-04-02 20:17:36,794 basehttp 15316 19620 "GET /favicon.ico HTTP/1.1" 404 2326
+INFO 2024-04-02 20:17:47,880 basehttp 15316 22216 "GET /S_2/authors HTTP/1.1" 301 0
+INFO 2024-04-02 20:17:47,955 basehttp 15316 22224 "GET /S_2/authors/ HTTP/1.1" 200 190
+WARNING 2024-04-02 20:17:56,280 log 15316 22224 Not Found: /S_2/cube
+WARNING 2024-04-02 20:17:56,281 basehttp 15316 22224 "GET /S_2/cube HTTP/1.1" 404 2732
+WARNING 2024-04-02 20:18:10,281 log 15316 22224 Not Found: /prefix/
+WARNING 2024-04-02 20:18:10,282 basehttp 15316 22224 "GET /prefix/ HTTP/1.1" 404 2314
+INFO 2024-04-02 20:18:11,230 basehttp 15316 22224 "GET /S_1/cube HTTP/1.1" 301 0
+INFO 2024-04-02 20:18:11,238 basehttp 15316 21928 "GET /S_1/cube/ HTTP/1.1" 200 1
+INFO 2024-04-02 20:42:46,454 autoreload 12768 15972 Watching for file changes with StatReloader
+INFO 2024-04-02 20:42:52,390 basehttp 12768 15860 "GET /S_1/cube/ HTTP/1.1" 200 1
+INFO 2024-04-02 20:43:02,387 basehttp 12768 15860 "GET /S_1/about/ HTTP/1.1" 200 23
+INFO 2024-04-02 20:43:10,123 basehttp 12768 15860 "GET /S_1/index/ HTTP/1.1" 200 13
+INFO 2024-04-02 21:01:03,828 autoreload 8956 19660 Watching for file changes with StatReloader
+INFO 2024-04-02 21:01:12,242 autoreload 8956 19660 G:\Python-develop\Django\Django_project\Seminar_3\urls.py changed, reloading.
+INFO 2024-04-02 21:01:12,722 autoreload 15308 18736 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:01:25,552 log 15308 3828 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 12, in about
+    return render(request, 'index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR 2024-04-02 21:01:25,554 basehttp 15308 3828 "GET /S_3/about/ HTTP/1.1" 500 87842
+INFO 2024-04-02 21:02:24,313 autoreload 15308 18736 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:02:24,786 autoreload 11856 8328 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:02:33,170 log 11856 25420 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 12, in about
+    return render(request, 'Seminar_3.index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Seminar_3.index.html
+ERROR 2024-04-02 21:02:33,173 basehttp 11856 25420 "GET /S_3/about/ HTTP/1.1" 500 88159
+INFO 2024-04-02 21:03:56,984 autoreload 11856 8328 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:03:57,494 autoreload 22468 12628 Watching for file changes with StatReloader
+INFO 2024-04-02 21:04:02,952 basehttp 22468 24540 "GET /S_3/about/ HTTP/1.1" 200 127
+INFO 2024-04-02 21:06:31,369 autoreload 22468 12628 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:06:31,987 autoreload 2196 16720 Watching for file changes with StatReloader
+INFO 2024-04-02 21:06:37,721 basehttp 2196 6036 "GET /S_3/about/ HTTP/1.1" 200 127
+INFO 2024-04-02 21:06:39,067 basehttp 2196 6036 "GET /S_3/about/ HTTP/1.1" 200 127
+INFO 2024-04-02 21:06:40,095 basehttp 2196 6036 "GET /S_3/about/ HTTP/1.1" 200 127
+INFO 2024-04-02 21:07:09,051 autoreload 19636 8416 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:07:12,612 log 19636 4532 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 12, in about
+    return render(request, 'Seminar_3/index.html', context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '% context %' from '% context %'
+ERROR 2024-04-02 21:07:12,619 basehttp 19636 4532 "GET /S_3/about/ HTTP/1.1" 500 139250
+INFO 2024-04-02 21:08:39,888 autoreload 9272 22664 Watching for file changes with StatReloader
+INFO 2024-04-02 21:08:41,752 basehttp 9272 15484 "GET /S_3/about/ HTTP/1.1" 200 136
+INFO 2024-04-02 21:08:46,543 basehttp 9272 15484 "GET /S_3/about/ HTTP/1.1" 200 136
+INFO 2024-04-02 21:09:34,977 autoreload 9272 22664 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:09:35,529 autoreload 15244 5824 Watching for file changes with StatReloader
+INFO 2024-04-02 21:10:01,801 basehttp 15244 24628 "GET /S_3/about/ HTTP/1.1" 200 136
+INFO 2024-04-02 21:10:19,518 autoreload 24764 20792 Watching for file changes with StatReloader
+INFO 2024-04-02 21:10:20,920 basehttp 24764 15824 "GET /S_3/about/ HTTP/1.1" 200 195
+INFO 2024-04-02 21:10:34,585 autoreload 24764 20792 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:10:35,061 autoreload 24476 7428 Watching for file changes with StatReloader
+INFO 2024-04-02 21:10:52,693 autoreload 24476 7428 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:10:53,150 autoreload 23556 8764 Watching for file changes with StatReloader
+INFO 2024-04-02 21:10:59,435 basehttp 23556 13420 "GET /S_3/about/ HTTP/1.1" 200 569
+INFO 2024-04-02 21:11:34,839 autoreload 23556 8764 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:11:35,343 autoreload 5368 14060 Watching for file changes with StatReloader
+INFO 2024-04-02 21:11:37,522 basehttp 5368 23564 "GET /S_3/about/ HTTP/1.1" 200 569
+INFO 2024-04-02 21:13:36,211 autoreload 5368 14060 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:13:36,689 autoreload 17380 16844 Watching for file changes with StatReloader
+INFO 2024-04-02 21:14:44,928 autoreload 17380 16844 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:14:45,434 autoreload 3908 12252 Watching for file changes with StatReloader
+INFO 2024-04-02 21:15:27,011 autoreload 3908 12252 G:\Python-develop\Django\Django_project\Seminar_3\urls.py changed, reloading.
+INFO 2024-04-02 21:15:27,515 autoreload 12864 1484 Watching for file changes with StatReloader
+INFO 2024-04-02 21:15:39,018 basehttp 12864 8252 "GET /S_3/about/ HTTP/1.1" 200 195
+INFO 2024-04-02 21:15:45,194 basehttp 12864 8252 "GET /S_3/main/ HTTP/1.1" 200 168
+INFO 2024-04-02 21:16:54,458 autoreload 12864 1484 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:16:54,936 autoreload 12908 6544 Watching for file changes with StatReloader
+INFO 2024-04-02 21:17:00,572 basehttp 12908 5100 "GET /S_3/main/ HTTP/1.1" 200 168
+INFO 2024-04-02 21:17:08,900 basehttp 12908 5100 "GET /S_3/about/ HTTP/1.1" 200 195
+INFO 2024-04-02 21:17:14,590 autoreload 24608 4660 Watching for file changes with StatReloader
+INFO 2024-04-02 21:17:16,664 basehttp 24608 13268 "GET /S_3/about/ HTTP/1.1" 200 195
+INFO 2024-04-02 21:17:17,115 basehttp 24608 13268 "GET /S_3/about/ HTTP/1.1" 200 195
+INFO 2024-04-02 21:17:23,131 basehttp 24608 13268 "GET /S_3/main/ HTTP/1.1" 200 168
+INFO 2024-04-02 21:17:46,037 autoreload 24064 7176 Watching for file changes with StatReloader
+INFO 2024-04-02 21:17:48,394 basehttp 24064 18120 "GET /S_3/main/ HTTP/1.1" 200 136
+INFO 2024-04-02 21:17:50,748 basehttp 24064 18120 "GET /S_3/main/ HTTP/1.1" 200 136
+INFO 2024-04-02 21:18:42,191 autoreload 24064 7176 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:18:42,681 autoreload 17444 13868 Watching for file changes with StatReloader
+INFO 2024-04-02 21:18:46,399 basehttp 17444 19628 "GET /S_3/main/ HTTP/1.1" 200 168
+INFO 2024-04-02 21:20:10,540 autoreload 17880 11664 Watching for file changes with StatReloader
+INFO 2024-04-02 21:20:12,524 basehttp 17880 14200 "GET /S_3/main/ HTTP/1.1" 200 286
+INFO 2024-04-02 21:20:21,265 basehttp 17880 14200 "GET /S_3/about/ HTTP/1.1" 200 313
+INFO 2024-04-02 21:20:38,854 autoreload 17880 11664 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:20:39,336 autoreload 10204 16568 Watching for file changes with StatReloader
+INFO 2024-04-02 21:20:40,584 basehttp 10204 13300 "GET /S_3/about/ HTTP/1.1" 200 304
+INFO 2024-04-02 21:21:02,530 autoreload 10204 16568 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:21:03,043 autoreload 10148 22548 Watching for file changes with StatReloader
+INFO 2024-04-02 21:21:05,151 basehttp 10148 25224 "GET /S_3/about/ HTTP/1.1" 200 304
+WARNING 2024-04-02 21:21:09,264 log 10148 25224 Not Found: /S_3/üפרע/
+WARNING 2024-04-02 21:21:09,265 basehttp 10148 25224 "GET /S_3/%D1%8C%D1%84%D1%88%D1%82/ HTTP/1.1" 404 2688
+INFO 2024-04-02 21:21:14,891 basehttp 10148 25224 "GET /S_3/main/ HTTP/1.1" 200 286
+INFO 2024-04-02 21:22:34,105 autoreload 10148 22548 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:22:37,356 autoreload 22848 16444 Watching for file changes with StatReloader
+INFO 2024-04-02 21:22:40,042 basehttp 22848 25500 "GET /S_3/main/ HTTP/1.1" 200 285
+INFO 2024-04-02 21:22:47,163 basehttp 22848 25500 "GET /S_3/about/ HTTP/1.1" 200 304
+INFO 2024-04-02 21:26:06,523 autoreload 22848 16444 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 21:26:07,030 autoreload 15820 3312 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:26:09,388 log 15820 23984 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/base.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: Seminar_3/base.html
+ERROR 2024-04-02 21:26:09,392 basehttp 15820 23984 "GET /S_3/about/ HTTP/1.1" 500 86159
+INFO 2024-04-02 21:26:37,833 autoreload 5632 11348 Watching for file changes with StatReloader
+INFO 2024-04-02 21:26:39,172 basehttp 5632 23564 "GET /S_3/about/ HTTP/1.1" 200 304
+INFO 2024-04-02 21:43:24,966 autoreload 9204 1844 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:43:30,238 log 9204 12608 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'end'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:43:30,245 basehttp 9204 12608 "GET /S_3/about/ HTTP/1.1" 500 152499
+INFO 2024-04-02 21:44:25,026 autoreload 16620 14352 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:44:28,472 log 16620 23884 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:44:28,478 basehttp 16620 23884 "GET /S_3/about/ HTTP/1.1" 500 152534
+INFO 2024-04-02 21:45:37,532 autoreload 19840 18356 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:45:39,007 log 19840 1164 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:45:39,016 basehttp 19840 1164 "GET /S_3/about/ HTTP/1.1" 500 152534
+INFO 2024-04-02 21:48:11,698 autoreload 23972 14196 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:48:14,644 log 23972 18276 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'end'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:48:14,651 basehttp 23972 18276 "GET /S_3/about/ HTTP/1.1" 500 152499
+INFO 2024-04-02 21:50:07,547 autoreload 19780 11284 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:50:10,126 log 19780 13800 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'end'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:50:10,134 basehttp 19780 13800 "GET /S_3/about/ HTTP/1.1" 500 152575
+INFO 2024-04-02 21:50:27,728 autoreload 22552 24184 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:50:31,432 log 22552 17208 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:50:31,438 basehttp 22552 17208 "GET /S_3/about/ HTTP/1.1" 500 152610
+INFO 2024-04-02 21:52:45,351 autoreload 13304 6756 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:52:47,891 log 13304 25072 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:52:47,897 basehttp 13304 25072 "GET /S_3/about/ HTTP/1.1" 500 152689
+INFO 2024-04-02 21:53:50,426 autoreload 7612 23864 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:53:52,277 log 7612 9268 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:53:52,283 basehttp 7612 9268 "GET /S_3/about/ HTTP/1.1" 500 152689
+INFO 2024-04-02 21:54:46,077 autoreload 16788 5308 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:54:50,183 log 16788 13836 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:54:50,189 basehttp 16788 13836 "GET /S_3/about/ HTTP/1.1" 500 152534
+ERROR 2024-04-02 21:55:11,097 log 16788 13836 Internal Server Error: /S_3/main/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 19, in main
+    return render(request, 'Seminar_3/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:55:11,102 basehttp 16788 13836 "GET /S_3/main/ HTTP/1.1" 500 151299
+INFO 2024-04-02 21:56:15,900 autoreload 17932 11140 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:56:19,041 log 17932 10688 Internal Server Error: /S_3/main/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 19, in main
+    return render(request, 'Seminar_3/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:56:19,049 basehttp 17932 10688 "GET /S_3/main/ HTTP/1.1" 500 151436
+ERROR 2024-04-02 21:56:57,132 log 17932 10688 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:56:57,137 basehttp 17932 10688 "GET /S_3/about/ HTTP/1.1" 500 152397
+INFO 2024-04-02 21:57:05,686 autoreload 25608 25604 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:57:07,590 log 25608 24668 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:57:07,597 basehttp 25608 24668 "GET /S_3/about/ HTTP/1.1" 500 152534
+INFO 2024-04-02 21:57:37,347 autoreload 25704 25724 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:57:38,749 log 25704 5436 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: 'endblock'. Did you forget to register or load this tag?
+ERROR 2024-04-02 21:57:38,756 basehttp 25704 5436 "GET /S_3/about/ HTTP/1.1" 500 152534
+INFO 2024-04-02 21:58:05,284 autoreload 25568 16688 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:58:06,594 log 25568 25876 Internal Server Error: /S_3/about/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 11, in about
+    return render(request, 'Seminar_3/about.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 222, in do_block
+    raise TemplateSyntaxError("'%s' tag takes only one argument" % bits[0])
+django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argument
+ERROR 2024-04-02 21:58:06,601 basehttp 25568 25876 "GET /S_3/about/ HTTP/1.1" 500 150399
+INFO 2024-04-02 21:58:41,393 autoreload 22320 1424 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:58:47,805 log 22320 26380 Internal Server Error: /S_3/main/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 19, in main
+    return render(request, 'Seminar_3/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 222, in do_block
+    raise TemplateSyntaxError("'%s' tag takes only one argument" % bits[0])
+django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argument
+ERROR 2024-04-02 21:58:47,811 basehttp 22320 26380 "GET /S_3/main/ HTTP/1.1" 500 149164
+INFO 2024-04-02 21:59:39,773 autoreload 26428 25940 Watching for file changes with StatReloader
+ERROR 2024-04-02 21:59:40,851 log 26428 10564 Internal Server Error: /S_3/main/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_3\views.py", line 19, in main
+    return render(request, 'Seminar_3/index.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 222, in do_block
+    raise TemplateSyntaxError("'%s' tag takes only one argument" % bits[0])
+django.template.exceptions.TemplateSyntaxError: 'block' tag takes only one argument
+ERROR 2024-04-02 21:59:40,857 basehttp 26428 10564 "GET /S_3/main/ HTTP/1.1" 500 149206
+INFO 2024-04-02 22:01:25,566 autoreload 17572 25108 Watching for file changes with StatReloader
+INFO 2024-04-02 22:01:27,489 basehttp 17572 25072 "GET /S_3/main/ HTTP/1.1" 200 308
+INFO 2024-04-02 22:01:33,437 basehttp 17572 25072 "GET /S_3/about/ HTTP/1.1" 200 327
+INFO 2024-04-02 22:02:02,880 autoreload 2216 14636 Watching for file changes with StatReloader
+INFO 2024-04-02 22:02:04,616 basehttp 2216 26472 "GET /S_3/about/ HTTP/1.1" 200 331
+INFO 2024-04-02 22:05:16,746 autoreload 2216 14636 G:\Python-develop\Django\Django_project\Seminar_1\views.py changed, reloading.
+INFO 2024-04-02 22:05:17,239 autoreload 24428 3360 Watching for file changes with StatReloader
+INFO 2024-04-02 22:06:10,064 autoreload 24428 3360 G:\Python-develop\Django\Django_project\Seminar_3\urls.py changed, reloading.
+INFO 2024-04-02 22:06:10,577 autoreload 16868 21268 Watching for file changes with StatReloader
+INFO 2024-04-02 22:08:57,662 autoreload 16868 21268 G:\Python-develop\Django\Django_project\Seminar_3\urls.py changed, reloading.
+INFO 2024-04-02 22:08:58,180 autoreload 24624 25952 Watching for file changes with StatReloader
+INFO 2024-04-02 22:12:58,159 autoreload 24624 25952 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 22:12:58,645 autoreload 2412 8716 Watching for file changes with StatReloader
+INFO 2024-04-02 22:13:06,028 autoreload 2412 8716 G:\Python-develop\Django\Django_project\Seminar_3\views.py changed, reloading.
+INFO 2024-04-02 22:13:06,504 autoreload 20252 21268 Watching for file changes with StatReloader
+INFO 2024-04-02 22:14:47,849 autoreload 7768 24180 Watching for file changes with StatReloader
+INFO 2024-04-02 22:14:59,728 basehttp 7768 12584 "GET /S_3/coin/6 HTTP/1.1" 301 0
+INFO 2024-04-02 22:14:59,735 basehttp 7768 25620 "GET /S_3/coin/6/ HTTP/1.1" 200 276
+INFO 2024-04-02 22:15:26,100 autoreload 9804 26384 Watching for file changes with StatReloader
+INFO 2024-04-02 22:15:27,995 basehttp 9804 6108 "GET /S_3/coin/6/ HTTP/1.1" 200 300
+INFO 2024-04-02 22:16:18,119 autoreload 2396 21268 Watching for file changes with StatReloader
+INFO 2024-04-02 22:16:19,722 basehttp 2396 8468 "GET /S_3/coin/6/ HTTP/1.1" 200 433
+INFO 2024-04-02 22:16:29,868 basehttp 2396 8468 "GET /S_3/cube/6/ HTTP/1.1" 200 339

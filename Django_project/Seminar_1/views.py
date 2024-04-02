@@ -12,16 +12,16 @@ def index(request):
     return HttpResponse("Hello, world!")
 
 
-# def about(request):
-#     try:
-#         # some code that might raise an exception
-#         result = 1 / 0
-#     except Exception as e:
-#         logger.exception(f'Error in about page: {e}')
-#         return HttpResponse("Oops, something went wrong.")
-#     else:
-#         logger.debug('About page accessed')
-#         return HttpResponse("This is the about page.")
+def about(request):
+    # try:
+    #     # some code that might raise an exception
+    #     result = 1 / 0
+    # except Exception as e:
+    #     logger.exception(f'Error in about page: {e}')
+    #     return HttpResponse("Oops, something went wrong.")
+    # else:
+    #     logger.debug('About page accessed')
+    return HttpResponse("This is the about page.")
 
 def coin(request):
     logger.info('Ок')
@@ -31,9 +31,9 @@ def coin(request):
 
 def cube(request):
     logger.info('Ок')
-    return HttpResponse(randint(1,6))
+    return HttpResponse(randint(1, 6))
 
 
 def number(request):
     logger.info('Ок')
-    return HttpResponse(randint(1,100))
+    return HttpResponse(randint(1, 100))
