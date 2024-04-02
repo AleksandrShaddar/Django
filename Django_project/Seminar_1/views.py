@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 import logging
+from random import choice, randint
 
 # Create your views here.
 logger = logging.getLogger(__name__)
@@ -11,13 +12,28 @@ def index(request):
     return HttpResponse("Hello, world!")
 
 
-def about(request):
-    try:
-        # some code that might raise an exception
-        result = 1 / 0
-    except Exception as e:
-        logger.exception(f'Error in about page: {e}')
-        return HttpResponse("Oops, something went wrong.")
-    else:
-        logger.debug('About page accessed')
-        return HttpResponse("This is the about page.")
+# def about(request):
+#     try:
+#         # some code that might raise an exception
+#         result = 1 / 0
+#     except Exception as e:
+#         logger.exception(f'Error in about page: {e}')
+#         return HttpResponse("Oops, something went wrong.")
+#     else:
+#         logger.debug('About page accessed')
+#         return HttpResponse("This is the about page.")
+
+def coin(request):
+    logger.info('Ок')
+    coin_side = choice(['orel', 'reshka'])
+    return HttpResponse(coin_side)
+
+
+def cube(request):
+    logger.info('Ок')
+    return HttpResponse(randint(1,6))
+
+
+def number(request):
+    logger.info('Ок')
+    return HttpResponse(randint(1,100))
