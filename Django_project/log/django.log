@@ -2063,3 +2063,82 @@ INFO 2024-04-02 22:15:27,995 basehttp 9804 6108 "GET /S_3/coin/6/ HTTP/1.1" 200 
 INFO 2024-04-02 22:16:18,119 autoreload 2396 21268 Watching for file changes with StatReloader
 INFO 2024-04-02 22:16:19,722 basehttp 2396 8468 "GET /S_3/coin/6/ HTTP/1.1" 200 433
 INFO 2024-04-02 22:16:29,868 basehttp 2396 8468 "GET /S_3/cube/6/ HTTP/1.1" 200 339
+INFO 2024-04-07 17:43:26,481 autoreload 21044 9580 Watching for file changes with StatReloader
+INFO 2024-04-07 17:44:10,610 autoreload 21044 9580 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 17:44:11,120 autoreload 23520 23524 Watching for file changes with StatReloader
+INFO 2024-04-07 17:44:27,663 autoreload 23520 23524 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 17:44:28,130 autoreload 5948 1836 Watching for file changes with StatReloader
+INFO 2024-04-07 17:44:56,735 basehttp 5948 23216 "GET /S_4/all_games HTTP/1.1" 301 0
+INFO 2024-04-07 17:44:56,754 basehttp 5948 23536 "GET /S_4/all_games/ HTTP/1.1" 200 835
+WARNING 2024-04-07 17:44:56,921 log 5948 23536 Not Found: /favicon.ico
+WARNING 2024-04-07 17:44:56,922 basehttp 5948 23536 "GET /favicon.ico HTTP/1.1" 404 2534
+INFO 2024-04-07 17:46:06,126 autoreload 5948 1836 G:\Python-develop\Django\Django_project\Seminar_4\forms.py changed, reloading.
+INFO 2024-04-07 17:46:06,613 autoreload 11484 944 Watching for file changes with StatReloader
+INFO 2024-04-07 17:46:08,454 basehttp 11484 8656 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 17:46:30,652 basehttp 11484 8656 "POST /S_4/all_games/ HTTP/1.1" 200 407
+INFO 2024-04-07 17:47:26,906 basehttp 11484 8656 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 17:47:29,461 basehttp 11484 8656 "POST /S_4/all_games/ HTTP/1.1" 200 328
+INFO 2024-04-07 17:50:47,928 autoreload 11484 944 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 17:50:48,400 autoreload 2464 3980 Watching for file changes with StatReloader
+INFO 2024-04-07 17:50:51,759 basehttp 2464 11660 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 17:50:54,384 basehttp 2464 11660 "POST /S_4/all_games/ HTTP/1.1" 200 409
+INFO 2024-04-07 17:50:56,584 basehttp 2464 11660 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 17:51:01,565 basehttp 2464 11660 "POST /S_4/all_games/ HTTP/1.1" 302 0
+INFO 2024-04-07 17:51:01,570 basehttp 2464 11660 "GET /S_4/number/5/ HTTP/1.1" 200 333
+INFO 2024-04-07 17:53:34,899 autoreload 2464 3980 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 17:53:35,391 autoreload 4332 13012 Watching for file changes with StatReloader
+INFO 2024-04-07 19:01:35,703 autoreload 21948 12620 Watching for file changes with StatReloader
+INFO 2024-04-07 19:02:00,418 autoreload 21948 12620 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 19:02:00,898 autoreload 23872 23484 Watching for file changes with StatReloader
+INFO 2024-04-07 19:02:06,374 basehttp 23872 23408 "GET /S_4/number/5/ HTTP/1.1" 200 333
+INFO 2024-04-07 19:02:07,568 basehttp 23872 23408 "GET /S_4/number/5/ HTTP/1.1" 200 333
+INFO 2024-04-07 19:02:08,100 basehttp 23872 23408 "GET /S_4/number/5/ HTTP/1.1" 200 333
+INFO 2024-04-07 19:02:08,586 basehttp 23872 23408 "GET /S_4/number/5/ HTTP/1.1" 200 333
+INFO 2024-04-07 19:02:10,969 basehttp 23872 23408 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 19:02:12,847 basehttp 23872 23408 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 19:02:13,545 basehttp 23872 23408 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 19:02:14,077 basehttp 23872 23408 "GET /S_4/all_games/ HTTP/1.1" 200 795
+INFO 2024-04-07 19:02:18,968 basehttp 23872 23408 "POST /S_4/all_games/ HTTP/1.1" 200 1169
+INFO 2024-04-07 19:02:37,511 basehttp 23872 23408 "GET /S_4/add_author/ HTTP/1.1" 200 1049
+INFO 2024-04-07 19:03:37,864 basehttp 23872 23408 "GET /S_4/add_author/ HTTP/1.1" 200 1049
+INFO 2024-04-07 19:03:38,360 basehttp 23872 23408 "GET /S_4/add_author/ HTTP/1.1" 200 1049
+INFO 2024-04-07 19:06:25,909 autoreload 23872 23484 G:\Python-develop\Django\Django_project\Seminar_4\forms.py changed, reloading.
+INFO 2024-04-07 19:06:26,402 autoreload 18076 19576 Watching for file changes with StatReloader
+INFO 2024-04-07 19:06:30,266 basehttp 18076 4748 "GET /S_4/add_author/ HTTP/1.1" 200 1229
+INFO 2024-04-07 19:14:43,670 autoreload 18076 19576 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 19:14:44,135 autoreload 12156 24112 Watching for file changes with StatReloader
+INFO 2024-04-07 19:15:49,130 autoreload 12156 24112 G:\Python-develop\Django\Django_project\Seminar_4\views.py changed, reloading.
+INFO 2024-04-07 19:15:49,613 autoreload 24308 14152 Watching for file changes with StatReloader
+INFO 2024-04-07 19:16:21,042 basehttp 24308 10980 "GET /S_4/add_author/ HTTP/1.1" 200 1264
+INFO 2024-04-07 19:16:29,608 basehttp 24308 10980 "GET /S_4/add_author/ HTTP/1.1" 200 1264
+INFO 2024-04-07 19:16:55,491 autoreload 23232 9580 Watching for file changes with StatReloader
+INFO 2024-04-07 19:16:59,121 basehttp 23232 14200 "GET /S_4/add_author/ HTTP/1.1" 200 1264
+INFO 2024-04-07 19:20:08,581 basehttp 23232 14200 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:20:09,446 basehttp 23232 14200 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:20:19,283 autoreload 23452 10252 Watching for file changes with StatReloader
+INFO 2024-04-07 19:20:22,034 basehttp 23452 22040 "GET /S_4/add_author HTTP/1.1" 301 0
+INFO 2024-04-07 19:20:22,050 basehttp 23452 23276 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:25:20,355 autoreload 12332 23456 Watching for file changes with StatReloader
+WARNING 2024-04-07 19:25:27,996 log 12332 3712 Not Found: /number/
+WARNING 2024-04-07 19:25:27,997 basehttp 12332 3712 "GET /number/ HTTP/1.1" 404 2522
+INFO 2024-04-07 19:25:40,730 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:33,084 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:33,469 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:33,918 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:34,269 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:38,973 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:39,308 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:39,590 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:39,934 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:40,414 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:40,784 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:27:41,141 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:28:18,726 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1" 200 1341
+INFO 2024-04-07 19:28:32,483 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1" 200 1420
+INFO 2024-04-07 19:28:40,046 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1" 200 1420
+INFO 2024-04-07 19:28:44,325 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1" 200 1420
+INFO 2024-04-07 19:28:47,676 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1" 200 1420
+INFO 2024-04-07 19:28:52,615 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1" 200 1420
+INFO 2024-04-07 19:28:55,236 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
+INFO 2024-04-07 19:41:32,940 autoreload 12332 23456 G:\Python-develop\Django\Django_project\Seminar_4\forms.py changed, reloading.
+INFO 2024-04-07 19:41:33,458 autoreload 20800 18812 Watching for file changes with StatReloader

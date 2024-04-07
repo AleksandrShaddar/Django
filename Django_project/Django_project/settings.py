@@ -16,7 +16,6 @@ import logging
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -32,7 +31,6 @@ ALLOWED_HOSTS = [
     '192.168.0.14',
 ]
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -45,6 +43,7 @@ INSTALLED_APPS = [
     'Seminar_1',
     'Seminar_2',
     'Seminar_3',
+    'Seminar_4',
 ]
 
 MIDDLEWARE = [
@@ -77,7 +76,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Django_project.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -87,7 +85,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -107,7 +104,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -118,7 +114,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
@@ -131,37 +126,37 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGGING = {
- 'version': 1,
- 'disable_existing_loggers': False,
- 'formatters': {
- 'verbose': {
- 'format': '{levelname} {asctime} {module} {process} {thread} {message}',
- 'style': '{',
- },
- 'simple': {
- 'format': '%(levelname)s %(message)s'
- },
- },
- 'handlers': {
- 'console': {
- 'class': 'logging.StreamHandler',
- 'formatter': 'verbose', # добавлен параметр formatter
- },
- 'file': {
- 'class': 'logging.FileHandler',
- 'filename': './log/django.log',
- 'formatter': 'verbose', # добавлен параметр formatter
- },
- },
- 'loggers': {
- 'django': {
- 'handlers': ['console', 'file'],
- 'level': 'INFO',
- },
- 'myapp': {
- 'handlers': ['console', 'file'],
- 'level': 'DEBUG',
- 'propagate': True,
- },
- },
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process} {thread} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+            'formatter': 'verbose',  # добавлен параметр formatter
+        },
+        'file': {
+            'class': 'logging.FileHandler',
+            'filename': './log/django.log',
+            'formatter': 'verbose',  # добавлен параметр formatter
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+        },
+        'myapp': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
 }
