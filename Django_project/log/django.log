@@ -2142,3 +2142,300 @@ INFO 2024-04-07 19:28:52,615 basehttp 12332 3712 "POST /S_4/add_author/ HTTP/1.1
 INFO 2024-04-07 19:28:55,236 basehttp 12332 3712 "GET /S_4/add_author/ HTTP/1.1" 200 1268
 INFO 2024-04-07 19:41:32,940 autoreload 12332 23456 G:\Python-develop\Django\Django_project\Seminar_4\forms.py changed, reloading.
 INFO 2024-04-07 19:41:33,458 autoreload 20800 18812 Watching for file changes with StatReloader
+INFO 2024-04-07 19:49:33,179 autoreload 20800 18812 G:\Python-develop\Django\Django_project\Django_project\settings.py changed, reloading.
+INFO 2024-04-07 19:49:33,771 autoreload 25584 25588 Watching for file changes with StatReloader
+INFO 2024-04-07 19:50:05,128 autoreload 25584 25588 G:\Python-develop\Django\Django_project\Django_project\settings.py changed, reloading.
+INFO 2024-04-07 19:50:05,617 autoreload 24816 24736 Watching for file changes with StatReloader
+WARNING 2024-04-07 20:34:34,420 log 24816 25348 Not Found: /h_4/update_product/
+WARNING 2024-04-07 20:34:34,421 basehttp 24816 25348 "GET /h_4/update_product/ HTTP/1.1" 404 2558
+INFO 2024-04-11 19:02:15,769 autoreload 5624 4080 Watching for file changes with StatReloader
+WARNING 2024-04-11 19:02:18,102 log 5624 21988 Not Found: /
+WARNING 2024-04-11 19:02:18,103 basehttp 5624 21988 "GET / HTTP/1.1" 404 2483
+WARNING 2024-04-11 19:02:18,323 log 5624 21988 Not Found: /favicon.ico
+WARNING 2024-04-11 19:02:18,324 basehttp 5624 21988 "GET /favicon.ico HTTP/1.1" 404 2534
+INFO 2024-04-11 19:02:33,831 basehttp 5624 21988 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-11 19:02:33,844 basehttp 5624 19860 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:02:33,881 basehttp 5624 19860 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-11 19:02:34,082 basehttp 5624 19860 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-11 19:02:34,086 basehttp 5624 19860 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-04-11 19:02:34,113 basehttp 5624 21508 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-11 19:02:34,121 basehttp 5624 22316 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-11 19:02:34,123 basehttp 5624 15964 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-11 19:02:34,137 basehttp 5624 21984 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-11 19:02:34,145 basehttp 5624 17704 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-11 19:02:52,627 basehttp 5624 17704 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:02:52,645 basehttp 5624 17704 "GET /admin/ HTTP/1.1" 200 5536
+INFO 2024-04-11 19:02:52,684 basehttp 5624 17704 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-11 19:02:52,714 basehttp 5624 21984 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-11 19:02:52,715 basehttp 5624 17704 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-11 19:05:03,700 autoreload 5624 4080 G:\Python-develop\Django\Django_project\Seminar_4\admin.py changed, reloading.
+INFO 2024-04-11 19:05:04,180 autoreload 17876 16044 Watching for file changes with StatReloader
+INFO 2024-04-11 19:05:16,696 autoreload 17876 16044 G:\Python-develop\Django\Django_project\Seminar_4\admin.py changed, reloading.
+INFO 2024-04-11 19:05:17,210 autoreload 9592 14492 Watching for file changes with StatReloader
+INFO 2024-04-11 19:09:28,366 autoreload 2180 17260 Watching for file changes with StatReloader
+INFO 2024-04-11 19:15:27,461 autoreload 2180 17260 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 19:15:27,962 autoreload 21540 12884 Watching for file changes with StatReloader
+INFO 2024-04-11 19:17:06,668 autoreload 21540 12884 G:\Python-develop\Django\Django_project\Seminar_1\admin.py changed, reloading.
+INFO 2024-04-11 19:17:07,127 autoreload 18396 21380 Watching for file changes with StatReloader
+INFO 2024-04-11 19:17:38,030 autoreload 18396 21380 G:\Python-develop\Django\Django_project\Seminar_1\admin.py changed, reloading.
+INFO 2024-04-11 19:17:38,536 autoreload 2168 20476 Watching for file changes with StatReloader
+INFO 2024-04-11 19:17:54,307 basehttp 2168 10284 "GET /admin/ HTTP/1.1" 200 6629
+INFO 2024-04-11 19:18:20,639 basehttp 2168 10284 "GET /admin/Seminar_2/games/ HTTP/1.1" 200 13541
+INFO 2024-04-11 19:18:20,690 basehttp 2168 10404 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:18:20,863 basehttp 2168 20124 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-11 19:18:20,865 basehttp 2168 20588 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-11 19:18:20,867 basehttp 2168 20588 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-11 19:18:20,868 basehttp 2168 20124 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-11 19:18:20,874 basehttp 2168 20588 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-11 19:18:20,879 basehttp 2168 10284 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-11 19:18:20,898 basehttp 2168 10404 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-11 19:18:20,903 basehttp 2168 4088 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-11 19:18:20,903 basehttp 2168 8152 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-11 19:18:20,909 basehttp 2168 8152 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-11 19:18:20,924 basehttp 2168 8152 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-04-11 19:19:54,757 basehttp 2168 8152 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 15398
+INFO 2024-04-11 19:19:54,798 basehttp 2168 8152 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:20:02,771 basehttp 2168 8152 "GET /admin/Seminar_2/author/20/change/ HTTP/1.1" 200 11597
+INFO 2024-04-11 19:20:02,813 basehttp 2168 10284 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-11 19:20:02,814 basehttp 2168 8152 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-11 19:20:02,815 basehttp 2168 4088 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-04-11 19:20:02,815 basehttp 2168 10404 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-04-11 19:20:02,817 basehttp 2168 20588 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:20:02,835 basehttp 2168 20588 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-11 19:20:02,838 basehttp 2168 20588 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-11 19:20:02,868 basehttp 2168 20588 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-04-11 19:20:41,794 basehttp 2168 20588 "GET /admin/ HTTP/1.1" 200 6629
+INFO 2024-04-11 19:23:07,401 basehttp 2168 20588 "GET /admin/auth/group/ HTTP/1.1" 200 8073
+INFO 2024-04-11 19:23:07,448 basehttp 2168 20588 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:23:07,451 basehttp 2168 10404 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-04-11 19:23:40,783 basehttp 2168 10404 "GET /admin/auth/group/add/ HTTP/1.1" 200 13125
+INFO 2024-04-11 19:23:40,830 basehttp 2168 20588 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2024-04-11 19:23:40,831 basehttp 2168 4088 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+INFO 2024-04-11 19:23:40,832 basehttp 2168 10404 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:23:40,884 basehttp 2168 10404 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2024-04-11 19:24:06,551 basehttp 2168 10404 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2024-04-11 19:24:06,552 basehttp 2168 4088 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2024-04-11 19:24:38,960 basehttp 2168 4088 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:24:38,977 basehttp 2168 4088 "GET /admin/auth/group/add/ HTTP/1.1" 200 13362
+INFO 2024-04-11 19:24:39,014 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:24:39,095 basehttp 2168 4088 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-04-11 19:26:13,321 basehttp 2168 4088 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:26:13,339 basehttp 2168 4088 "GET /admin/auth/group/add/ HTTP/1.1" 200 13364
+INFO 2024-04-11 19:26:13,392 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:27:15,414 basehttp 2168 4088 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:27:15,428 basehttp 2168 4088 "GET /admin/auth/group/ HTTP/1.1" 200 10134
+INFO 2024-04-11 19:27:15,480 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:27:38,816 basehttp 2168 4088 "GET /admin/auth/user/ HTTP/1.1" 200 12038
+INFO 2024-04-11 19:27:38,866 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:27:38,892 basehttp 2168 10404 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-11 19:27:38,893 basehttp 2168 4088 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-04-11 19:27:48,467 basehttp 2168 4088 "GET /admin/auth/user/add/ HTTP/1.1" 200 10965
+INFO 2024-04-11 19:27:48,510 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:29:02,606 basehttp 2168 4088 "POST /admin/auth/user/add/ HTTP/1.1" 200 11184
+INFO 2024-04-11 19:29:02,656 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:29:30,770 basehttp 2168 4088 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:29:30,786 basehttp 2168 4088 "GET /admin/auth/user/add/ HTTP/1.1" 200 11209
+INFO 2024-04-11 19:29:30,828 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:29:55,963 basehttp 2168 4088 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:29:55,979 basehttp 2168 4088 "GET /admin/auth/user/add/ HTTP/1.1" 200 11209
+INFO 2024-04-11 19:29:56,027 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:30:32,089 basehttp 2168 4088 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:30:32,124 basehttp 2168 4088 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 23134
+INFO 2024-04-11 19:30:32,169 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:30:32,233 basehttp 2168 4088 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-04-11 19:34:14,317 basehttp 2168 4088 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:34:14,334 basehttp 2168 4088 "GET /admin/auth/user/ HTTP/1.1" 200 13690
+INFO 2024-04-11 19:34:14,389 basehttp 2168 18260 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2024-04-11 19:34:14,390 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:34:17,138 basehttp 2168 4088 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 22893
+INFO 2024-04-11 19:34:17,178 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:34:27,798 basehttp 2168 4088 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:34:27,814 basehttp 2168 4088 "GET /admin/auth/user/ HTTP/1.1" 200 13690
+INFO 2024-04-11 19:34:27,868 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:34:29,560 basehttp 2168 4088 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22893
+INFO 2024-04-11 19:34:29,599 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:34:35,178 basehttp 2168 4088 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:34:35,194 basehttp 2168 4088 "GET /admin/auth/user/ HTTP/1.1" 200 13690
+INFO 2024-04-11 19:34:35,247 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:35:19,735 basehttp 2168 21436 "GET /admin HTTP/1.1" 301 0
+INFO 2024-04-11 19:35:19,741 basehttp 2168 4956 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:35:19,749 basehttp 2168 4956 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-11 19:35:19,780 basehttp 2168 4956 "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-04-11 19:35:19,793 basehttp 2168 4956 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-04-11 19:35:19,793 basehttp 2168 18596 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-04-11 19:35:19,794 basehttp 2168 4440 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-04-11 19:35:19,796 basehttp 2168 16084 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-04-11 19:35:19,799 basehttp 2168 16084 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-04-11 19:35:19,800 basehttp 2168 18596 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2024-04-11 19:35:19,924 log 2168 18596 Not Found: /favicon.ico
+WARNING 2024-04-11 19:35:19,924 basehttp 2168 18596 "GET /favicon.ico HTTP/1.1" 404 2534
+INFO 2024-04-11 19:35:38,755 basehttp 2168 18596 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4340
+INFO 2024-04-11 19:35:49,223 basehttp 2168 18596 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4340
+INFO 2024-04-11 19:36:11,772 basehttp 2168 4088 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22902
+INFO 2024-04-11 19:36:11,816 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:36:15,674 basehttp 2168 4088 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:36:15,690 basehttp 2168 4088 "GET /admin/auth/user/ HTTP/1.1" 200 13690
+INFO 2024-04-11 19:36:15,738 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:36:16,737 basehttp 2168 4088 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 22902
+INFO 2024-04-11 19:36:16,776 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:36:20,157 basehttp 2168 4088 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:36:20,173 basehttp 2168 4088 "GET /admin/auth/user/ HTTP/1.1" 200 13690
+INFO 2024-04-11 19:36:20,221 basehttp 2168 4088 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:36:30,094 basehttp 2168 18596 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:36:30,104 basehttp 2168 18596 "GET /admin/ HTTP/1.1" 200 5427
+INFO 2024-04-11 19:36:30,118 basehttp 2168 18596 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-04-11 19:36:30,132 basehttp 2168 18596 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-04-11 19:47:14,062 basehttp 2168 2488 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 9474
+INFO 2024-04-11 19:47:14,075 basehttp 2168 2488 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-04-11 19:47:14,089 basehttp 2168 20596 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-04-11 19:47:14,090 basehttp 2168 13788 "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-04-11 19:47:14,091 basehttp 2168 13064 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-04-11 19:47:14,091 basehttp 2168 3904 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-04-11 19:47:14,091 basehttp 2168 16080 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-04-11 19:47:14,093 basehttp 2168 20596 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-04-11 19:47:14,094 basehttp 2168 2488 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-04-11 19:47:14,097 basehttp 2168 13064 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-04-11 19:47:14,102 basehttp 2168 13064 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-04-11 19:47:15,275 basehttp 2168 13064 "GET /admin/Seminar_2/author/21/change/ HTTP/1.1" 200 9711
+INFO 2024-04-11 19:47:15,287 basehttp 2168 13064 "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-04-11 19:47:15,301 basehttp 2168 2488 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-04-11 19:47:15,302 basehttp 2168 20596 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+INFO 2024-04-11 19:47:15,304 basehttp 2168 13064 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:47:15,306 basehttp 2168 20596 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-04-11 19:47:19,703 basehttp 2168 20596 "POST /admin/logout/ HTTP/1.1" 200 3553
+INFO 2024-04-11 19:47:22,778 basehttp 2168 20596 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:47:22,784 basehttp 2168 20596 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-11 19:47:30,582 basehttp 2168 20596 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:47:30,592 basehttp 2168 20596 "GET /admin/ HTTP/1.1" 200 5558
+INFO 2024-04-11 19:47:30,619 basehttp 2168 20596 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-04-11 19:47:30,620 basehttp 2168 13064 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-04-11 19:53:31,017 basehttp 2168 21456 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 15398
+INFO 2024-04-11 19:53:31,056 basehttp 2168 21456 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:53:50,315 basehttp 2168 21456 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 15398
+INFO 2024-04-11 19:53:50,353 basehttp 2168 21456 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:53:56,693 basehttp 2168 21232 "POST /admin/logout/ HTTP/1.1" 200 3553
+INFO 2024-04-11 19:54:00,340 basehttp 2168 21232 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-04-11 19:54:00,347 basehttp 2168 21232 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+INFO 2024-04-11 19:56:43,808 autoreload 2168 20476 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 19:56:44,295 autoreload 11472 2944 Watching for file changes with StatReloader
+INFO 2024-04-11 19:57:55,999 autoreload 11472 2944 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 19:57:56,458 autoreload 21148 22412 Watching for file changes with StatReloader
+INFO 2024-04-11 19:58:18,367 autoreload 21148 22412 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 19:58:18,852 autoreload 19844 21184 Watching for file changes with StatReloader
+INFO 2024-04-11 19:58:27,653 basehttp 19844 3724 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 18066
+INFO 2024-04-11 19:58:27,695 basehttp 19844 3724 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:59:14,783 autoreload 19844 21184 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 19:59:15,303 autoreload 21412 15964 Watching for file changes with StatReloader
+INFO 2024-04-11 19:59:20,113 basehttp 21412 12368 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 18307
+INFO 2024-04-11 19:59:20,146 basehttp 21412 12368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:59:26,784 basehttp 21412 12368 "GET /admin/Seminar_2/author/?o=4 HTTP/1.1" 200 18876
+INFO 2024-04-11 19:59:26,833 basehttp 21412 12368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 19:59:30,455 basehttp 21412 12368 "GET /admin/Seminar_2/author/?o=-4 HTTP/1.1" 200 18901
+INFO 2024-04-11 19:59:30,494 basehttp 21412 12368 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:00:30,683 autoreload 21412 15964 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:00:31,173 autoreload 17520 16420 Watching for file changes with StatReloader
+INFO 2024-04-11 20:01:56,531 autoreload 17520 16420 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:01:57,027 autoreload 15392 21772 Watching for file changes with StatReloader
+INFO 2024-04-11 20:02:01,143 basehttp 15392 19984 "GET /admin/Seminar_2/author/?o=-4 HTTP/1.1" 200 12259
+INFO 2024-04-11 20:02:01,178 basehttp 15392 19984 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:10:13,340 autoreload 15392 21772 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:10:13,837 autoreload 23532 22600 Watching for file changes with StatReloader
+INFO 2024-04-11 20:10:20,180 basehttp 23532 22388 "GET /admin/Seminar_2/author/?o=-4 HTTP/1.1" 200 12631
+INFO 2024-04-11 20:10:20,218 basehttp 23532 22388 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:10:26,853 basehttp 23532 22388 "GET /admin/Seminar_2/author/?q=Name5&o=-4 HTTP/1.1" 200 10918
+INFO 2024-04-11 20:10:26,901 basehttp 23532 22388 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:12:11,360 autoreload 23532 22600 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:12:11,894 autoreload 22104 9264 Watching for file changes with StatReloader
+INFO 2024-04-11 20:13:32,156 autoreload 22104 9264 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:13:32,644 autoreload 20796 4080 Watching for file changes with StatReloader
+INFO 2024-04-11 20:13:46,340 autoreload 20796 4080 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:13:46,821 autoreload 14796 21024 Watching for file changes with StatReloader
+INFO 2024-04-11 20:14:34,342 autoreload 14796 21024 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:14:34,856 autoreload 20684 14712 Watching for file changes with StatReloader
+INFO 2024-04-11 20:14:48,553 autoreload 20684 14712 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:14:49,041 autoreload 22676 21188 Watching for file changes with StatReloader
+INFO 2024-04-11 20:15:08,883 autoreload 22676 21188 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:15:09,357 autoreload 21984 20476 Watching for file changes with StatReloader
+INFO 2024-04-11 20:15:21,985 basehttp 21984 18308 "GET /admin/Seminar_2/author/?q=&o=-4 HTTP/1.1" 200 12756
+INFO 2024-04-11 20:15:22,026 basehttp 21984 18308 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:15:28,227 basehttp 21984 18308 "GET /admin/Seminar_2/author/20/change/?_changelist_filters=q%3D%26o%3D-4 HTTP/1.1" 200 12248
+INFO 2024-04-11 20:15:28,281 basehttp 21984 22952 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:15:28,334 basehttp 21984 18308 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2024-04-11 20:16:47,405 autoreload 21984 20476 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:16:47,907 autoreload 23668 23492 Watching for file changes with StatReloader
+INFO 2024-04-11 20:16:48,319 basehttp 23668 21892 "GET /admin/Seminar_2/author/20/change/?_changelist_filters=q%3D%26o%3D-4 HTTP/1.1" 200 12244
+INFO 2024-04-11 20:16:48,355 basehttp 23668 21892 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-04-11 20:18:12,301 autoreload 23668 23492 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:18:12,776 autoreload 21720 25168 Watching for file changes with StatReloader
+INFO 2024-04-11 20:22:05,825 autoreload 21720 25168 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:22:06,289 autoreload 24528 9480 Watching for file changes with StatReloader
+INFO 2024-04-11 20:22:45,307 autoreload 24528 9480 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:22:45,779 autoreload 24912 25156 Watching for file changes with StatReloader
+INFO 2024-04-11 20:23:24,052 autoreload 24912 25156 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:23:24,567 autoreload 16800 2952 Watching for file changes with StatReloader
+INFO 2024-04-11 20:23:38,289 autoreload 16800 2952 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:23:38,781 autoreload 18320 23620 Watching for file changes with StatReloader
+INFO 2024-04-11 20:24:11,714 autoreload 18320 23620 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:24:12,207 autoreload 24404 23576 Watching for file changes with StatReloader
+INFO 2024-04-11 20:24:48,008 basehttp 24404 24184 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 12459
+INFO 2024-04-11 20:24:48,052 basehttp 24404 24184 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2024-04-11 20:25:06,126 log 24404 24184 Internal Server Error: /admin/Seminar_2/author/
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\db\models\options.py", line 681, in get_field
+    return self.fields_map[field_name]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'boigraphy'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\utils\decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 2018, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\contrib\admin\options.py", line 1650, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\Django_project\Seminar_2\admin.py", line 8, in update_name_bio
+    queryset.update(boigraphy='Новая биография')
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\db\models\query.py", line 1228, in update
+    query.add_update_values(kwargs)
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\db\models\sql\subqueries.py", line 88, in add_update_values
+    field = self.get_meta().get_field(name)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\Python-develop\Django\venv\Lib\site-packages\django\db\models\options.py", line 683, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Author has no field named 'boigraphy'
+ERROR 2024-04-11 20:25:06,132 basehttp 24404 24184 "POST /admin/Seminar_2/author/ HTTP/1.1" 500 141947
+INFO 2024-04-11 20:25:23,671 basehttp 24404 24184 "GET /admin/Seminar_2/author/ HTTP/1.1" 200 12459
+INFO 2024-04-11 20:25:40,916 autoreload 24404 23576 G:\Python-develop\Django\Django_project\Seminar_2\admin.py changed, reloading.
+INFO 2024-04-11 20:25:41,436 autoreload 25532 8216 Watching for file changes with StatReloader

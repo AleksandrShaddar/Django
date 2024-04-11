@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'Seminar_2',
     'Seminar_3',
     'Seminar_4',
+    'Seminar_5',
 ]
 
 MIDDLEWARE = [
@@ -61,7 +62,9 @@ ROOT_URLCONF = 'Django_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            # BASE_DIR / 'templates',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
